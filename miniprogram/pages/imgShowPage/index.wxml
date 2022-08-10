@@ -1,0 +1,2 @@
+<!--miniprogram/pages/imgShowPage/index.wxml-->
+<web-view src='{{href}}'></web-view>

@@ -1,0 +1,37 @@
+<!--pages/lecture/index.wxml-->
+<view class="content">
+    <view class="header-content">
+      <image src="../../images/saleLogin/header.png"></image>
+    </view> 
+    <view class="title-content">
+      <image src="../../images/lecture/title.png"></image>
+      <text>二层  青岛厅</text>
+    </view>
+    <view class="vte-content">
+      <image src="../../images/lecture/VTE.png"></image>
+    </view>
+    <view class="user-list-content" bindtap="getUserdetail">
+      <view class="list">
+        <view class="user"><image src="../../images/lecture/user1.png"></image> </view>
+        <view class="userName">张鸿坤</view>
+        <view class="arror"><image src="../../images/lecture/arr.png"></image> </view>
+      </view>
+    </view>
+
+    <view class="user-list-content"  bindtap="getUserdetail">
+      <view class="list">
+        <view class="user"><image src="../../images/lecture/user2.png"></image> </view>
+        <view class="userName">赵   渝</view>
+        <view class="arror"><image src="../../images/lecture/arr.png"></image> </view>
+      </view>
+    </view>
+
+    <view class="appointment-content">
+      <button bindtap="delyuyueChange" wx:if="{{SignUpState}}">取消报名</button>
+      <button bindtap="yuyueChange" style="background:#528ecb;color:#fff" disabled="{{title=='预约成功'}}" wx:if="{{!SignUpState}}">{{title}}</button>
+    </view>
+
+    <view class="Watch-live">
+      <button bindtap="lookZhibo">观看直播</button>
+    </view>
+</view>

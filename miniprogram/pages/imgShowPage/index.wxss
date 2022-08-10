@@ -1,0 +1,9 @@
+/* miniprogram/pages/imgShowPage/index.wxss */
+.imgShowPage{
+  width: 100%;
+  height: 100%;
+}
+.imgShowPage image{
+  width: 100%;
+  height: 100%;
+}

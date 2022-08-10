@@ -1,0 +1,98 @@
+/* pages/lecture/index.wxss */
+.header-content{
+    width: 100%;
+    height:auto;
+}
+.header-content image{
+    width: 100%;
+    height: 343rpx;
+    object-fit: fill;
+}
+.title-content{
+    width: 100%;
+    height: auto;
+    margin-top: 36rpx;
+    position: relative;
+}
+.title-content image{
+    width: 532rpx;
+    height: 56rpx;
+}    
+.title-content text{
+    position: absolute;
+    font-size: 26rpx;
+    color: #5692ce;
+    left: 355rpx;
+    top: 8rpx;
+    font-weight: 700;
+}
+.vte-content {
+    width: 100%;
+    height: auto;
+    margin-top: 30rpx;
+}
+.vte-content image{
+    width: 100%;
+    height: 56rpx;
+}
+.user-list-content{
+    width: 100%;
+    margin-top: 35rpx;
+}
+.user-list-content .list{
+    display: flex;
+    text-align: center;
+    height: 92rpx;
+}
+.user-list-content .list view{
+    flex: auto;
+}
+.user-list-content .list .user{
+    width: 270rpx;
+    vertical-align: middle;
+} 
+.user-list-content .list .userName{
+    width: 508rpx;
+    border-bottom: 1pt solid #e8e8e8;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 28rpx;
+    color: #528ecb;
+    padding-top: 18rpx;
+}
+.user-list-content .list .arror{
+    width: 99rpx;
+    text-align: left;
+}
+.user-list-content .list .user image{
+    width: 68rpx;
+    height: 68rpx;
+    margin-top: 10rpx;
+}
+
+.user-list-content .list .arror image{
+    width: 22rpx;
+    height: 28rpx;
+    margin-top: 28rpx;
+}
+.appointment-content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 80rpx;
+}
+.appointment-content button:not([size='mini']), .Watch-live  button:not([size='mini']){
+    border-radius: 40rpx;
+    background: #528ecb;
+    color: #fff;
+    font-size: 26rpx;
+    line-height: 42rpx;
+    padding: 10rpx;
+    box-sizing: border-box;
+}
+.Watch-live{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40rpx;
+}

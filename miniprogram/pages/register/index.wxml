@@ -1,0 +1,63 @@
+<!--pages/register/index.wxml-->
+<view class="container">
+    <view class="header-content">
+      <image src="../../images/saleLogin/header.png"></image>
+    </view> 
+    <view class="login-title">
+      <image src="../../images/register/selectUser.png"></image>
+      <text>新用户注册</text>
+    </view>
+    <view class="user-msg-form">
+        <image class="icon-user-input" src="../../images/saleLogin/icon-user-input.png"></image>
+        <input  type="text" name="" value='{{userName}}' bindblur='userNameChange' class="user-msg" placeholder="请填写真实姓名"  placeholder-class="input-placeholder"/>
+    </view>
+    <view class="user-msg-form">
+        <image class="icon-user-input" src="../../images/register/danwei.png"></image>
+        <input  type="text" name="" value='{{Company}}' bindblur='CompanyChange' class="user-msg" placeholder="请填写单位"  placeholder-class="input-placeholder"/>
+    </view>
+    <view class="user-msg-form">
+        <image class="icon-user-input" src="../../images/register/yiyuan.png"></image>
+        <view class="section">
+            <picker bindchange="gradePickerChange" value="{{gradeVal}}" range="{{gradeArray}}">
+                <view class="picker">
+                    <input  type="text" name="" disabled="true" value='{{gradeVal}}' class="user-msg" placeholder="请填写医院等级"  placeholder-class="input-placeholder"/>   
+                </view>
+            </picker>
+        </view>
+        <image class="icon-user-select" src="../../images/register/arrow.png"></image>
+    </view>
+    <view class="user-msg-form">
+        <image class="icon-user-input" src="../../images/register/keshi.png"></image>
+        <view class="section">
+            <picker bindchange="departmentPickerChange" value="{{departmentVal}}" range="{{departmentArray}}">
+                <view class="picker">
+                    <input  type="text" name="" disabled="true" value='{{departmentVal}}'  class="user-msg" placeholder="请选择科室"  placeholder-class="input-placeholder"/>   
+                </view>
+            </picker>
+        </view>
+        <image class="icon-user-select" src="../../images/register/arrow.png"></image>
+    </view> 
+    <view class="user-msg-form">
+        <image class="icon-user-input" src="../../images/register/zhicheng.png"></image>
+        <view class="section">
+            <picker bindchange="titlePickerChange" value="{{titleVal}}" range="{{titleArray}}">
+                <view class="picker">
+                    <input type="text" name="" disabled="true" value='{{titleVal}}'  class="user-msg" placeholder="请选择职称"  placeholder-class="input-placeholder"/>   
+                </view>
+            </picker>
+        </view>
+        <image class="icon-user-select" src="../../images/register/arrow.png"></image>
+    </view>         
+    <view class="login-btn-content">
+        <button bindtap="postUserProfile" open-type="getUserInfo" disabled="{{disableInput}}">登录</button>
+    </view>
+    <view class="clause-box">
+        <label class="checkbox" bindtap="checkboxChange" >
+            <checkbox color='#5692ce' />我确认本人为专业医生，并同意用户
+        </label>
+        <text bindtap="privacyClauseChange">隐私条款</text>
+    </view>
+    <view class="tip-box">
+        仅供与医疗卫生专业人士学术沟通使用
+    </view>
+</view>

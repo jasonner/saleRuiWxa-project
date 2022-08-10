@@ -1,0 +1,86 @@
+/* miniprogram/pages/lectureDetail/index.wxss */
+.header-content{
+  width: 100%;
+  height:auto;
+}
+.header-content image{
+  width: 100%;
+  height: 343rpx;
+  object-fit: fill;
+}
+.title-content{
+  width: 100%;
+  height: auto;
+  margin-top: 36rpx;
+  position: relative;
+}
+.title-content image{
+  width: 270rpx;
+  height: 58rpx;
+}    
+.user-content{
+  width: 100%;
+}
+.user-content .user-box{
+  width: 256rpx;
+  height: 256rpx;
+  margin: 0 auto;
+  margin-top: 45rpx;
+  border-radius: 100%;
+  border: 1px solid #93b9e0;
+}
+.user-content .user-box image{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.user-content .user-name{
+  width: 100%;
+  text-align: center;
+  margin-top: 28rpx;
+}
+.user-content .user-name .name{
+  font-size: 32rpx;
+  color: #5692ce;
+}
+.user-content .user-name .zhiwei{
+  font-size: 22rpx;
+  color: #5692ce;
+  margin-left: 16rpx;
+}
+.user-content .user-name .doc{
+  font-size: 24rpx;
+  color: #5692ce;
+  margin-top: 16rpx;
+}
+.user-intrduce{
+  width: 464rpx;
+  margin: 0 auto;
+  border-top: 1px  solid #b4b7bc;
+  padding: 0 15rpx;
+  margin-top: 18rpx;
+  box-sizing: border-box;
+}
+.user-intrduce view{
+  font-size: 20rpx;
+  color: #828282;
+  margin-top:27rpx;
+}
+.user-intrduce view text{
+  margin-right: 10rpx;
+  font-size: 20rpx;
+}
+.footer-box{
+  width: 100%;
+  height: auto;
+  margin-top: 200rpx;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.footer-box image{
+  width: 100%;
+  height: 114rpx;
+  object-fit: fill;
+}

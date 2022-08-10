@@ -1,0 +1,70 @@
+/* pages/invitation/index.wxss */
+.invitation-page{
+    width: 100%;
+    height: 100%;
+}
+.header-content{
+    width: 100%;
+    height:auto;
+  }
+.header-content image{
+    width: 100%;
+    height: 343rpx;
+    object-fit: fill;
+}
+.title-content{
+    width: 100%;
+}
+.title-content image{
+    width: 278rpx;
+    height: 90rpx;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40rpx;
+}
+.video-content{
+    width: 498rpx;
+    height: 321rpx;
+    margin: 0 auto;
+    margin-top: 32rpx;
+}
+.video-content video{
+    width: 100%;
+    height: 100%;
+}
+.content-list{
+    width: 449rpx;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 2pt solid #5692ce;
+    margin-top: 47rpx;
+    padding-left: 12rpx;
+    box-sizing: border-box;
+}
+.content-list .title{
+    font-size: 28rpx;
+    color: #5692ce;
+}
+.content-list .list{
+    font-size: 20rpx;
+    color: #848484;
+    text-align: left;
+    margin-top: 12rpx;
+}   
+.content-list .list text{
+    color: #5692ce;
+    font-size: 20rpx;
+    margin-right: 15rpx;
+}
+.intBtn-box{
+    width: 100%;
+    height: auto;
+    margin-top: 59rpx;
+    margin-bottom: 184rpx;
+}
+.intBtn-box image{
+    width: 210rpx;
+    height: 68rpx;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webView/index",
+    "pages/register/index",
+    "pages/lecture/index",
+    "pages/privacyClause/index",
+    "pages/invitation/index",
+    "pages/sharePage/index",
+    "pages/imgShowPage/index",
+    "pages/lectureDetail/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "TM 2021",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,40 @@
+/* pages/privacyClause/index.wxss */
+.content{
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.header-content{
+    width: 100%;
+    height:auto;
+  }
+.header-content image{
+    width: 100%;
+    height: 343rpx;
+    object-fit: fill;
+}
+.content-box{
+    padding:0 32rpx;
+}
+.content .title-top{
+    text-align: center;
+    width: 100%;
+    color: #5692ce;
+    font-size: 26rpx;
+    margin: 35rpx 0;
+}
+.content-box .list{
+    font-size: 26rpx;
+    color: #848484;
+    margin-top: 18rpx;
+    line-height: 1.5;
+    text-indent:2em;
+}
+.content-box .title{
+    font-size: 26rpx;
+    margin-top: 16rpx;
+    text-indent:2em;
+}
+.content-box .list:nth-last-of-type(1){
+    margin-bottom: 80rpx;
+}

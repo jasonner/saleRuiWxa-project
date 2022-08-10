@@ -1,0 +1,29 @@
+<!--miniprogram/pages/lectureDetail/index.wxml-->
+<view class="content">
+    <view class="header-content">
+      <image src="../../images/saleLogin/header.png"></image>
+    </view> 
+    <view class="title-content">
+      <image src="../../images/lectureDetail/title.png" ></image>
+    </view>
+    <view class="user-content">  
+      <view class="user-box">
+        <image src="../../images/lectureDetail/user.png"></image>
+      </view>
+      <view class="user-name">
+        <text class="name">赵  渝</text>
+        <text class="zhiwei">教授</text>
+        <view class="doc">重庆医科大学附属第一医院</view>
+      </view>
+      <view class="user-intrduce">
+          <view><text>•</text>重庆医科大学附属第一医院血管与疝外科主任</view>
+          <view><text>•</text>重庆市血管外科中心主任</view>
+          <view><text>•</text>重庆市医师协会血管外科医师分会会长</view>
+          <view><text>•</text>重庆市医学会普外科专委会主任委员</view>
+      </view>
+    </view>
+    <view class="footer-box">
+      <image src="../../images/saleLogin/footer.png"></image>
+    </view>
+</view>
+

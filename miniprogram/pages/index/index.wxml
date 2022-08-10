@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="index-page" wx:if="{{show}}">
+    <view class="header-content">
+      <image src="../../images/saleLogin/header.png"></image>
+    </view> 
+    <view class="login-title">
+      <image src="../../images/saleLogin/icon-user.png"></image>
+      <text>员工登录</text>
+    </view>
+    <view class="user-msg-form">
+      <image class="icon-user-input" src="../../images/saleLogin/icon-user-input.png"></image>
+     <input autocapitalize="characters" type="text" name="" value='{{cwId}}' bindblur='getUserCwid' class="user-msg" placeholder="请输入CWID" placeholder-class="input-placeholder"/>
+    </view>
+    <view class="login-btn-content">
+        <button bindtap="getUserProfile" open-type="getUserInfo" disabled="{{disableInput}}">登录</button>
+    </view>
+    <view class="footer-box">
+      <image src="../../images/saleLogin/footer.png"></image>
+    </view>
+</view>

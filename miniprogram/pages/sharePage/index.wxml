@@ -1,0 +1,60 @@
+<!--pages/sharePage/index.wxml-->
+<vieW class="invitation-page">
+    <view class="header-content">
+      <image src="../../images/saleLogin/header.png"></image>
+    </view> 
+    <view class="title-content">
+      <image src="../../images/invitation/title.png"></image>
+    </view> 
+    <view class="video-content">
+      <!-- <image src="../../images/invitation/ipad.png"></image> -->
+      <video id="myVideo" src="https://oss.sxyweb.com.cn/2021/w/TM2021/video/1.mp4" binderror="videoErrorCallback" controls  vslide-gesture="true" enable-auto-rotation="true" show-screen-lock-button="true" ></video>
+    </view> 
+    <view class="content-list">
+        <view class="title"> 
+          11月20日 Plenary  1、2
+        </view>
+        <view class="list">
+            <text>会议时间:</text>08:30-12:30
+        </view>
+        <view class="list">
+            <text>会议地点:</text>上海浦东香格里拉大酒店   三层    盛事堂
+        </view>
+        <view class="list">
+            <text>大会主席:</text>Ajay K  Kakkar   霍  勇    陈   忠
+        </view>
+    </view>
+    <view class="content-list">
+        <view class="title"> 
+          11月20日  分会场1、2
+        </view>
+        <view class="list">
+            <text>会议时间:</text>13:30-17:00
+        </view>
+        <view class="list">
+            <text>会议地点:</text>上海浦东香格里拉大酒店    三层   盛事堂
+        </view>
+    </view>
+    <view class="content-list">
+        <view class="title"> 
+          11月21日  Plenary 3
+        </view>
+        <view class="list">
+            <text>会议时间:</text>09:00-12:00
+        </view>
+        <view class="list">
+            <text>会议地点:</text>上海浦东香格里拉大酒店    三层   盛事堂
+        </view>
+        <view class="list">
+            <text>大会主持:</text>黎音亮  殷敏毅
+        </view>
+    </view>
+    <view class="intBtn-box">
+        <button open-type="share" hover-class="none">
+            <image src="{{qrurl}}" mode="aspectFill"></image>
+      </button>
+    </view>
+    <view class="share-text">
+      点击二维码分享
+    </view>
+</vieW>
